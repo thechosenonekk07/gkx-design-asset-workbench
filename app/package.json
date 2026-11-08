@@ -1,0 +1,23 @@
+{
+  "name": "gkx-design-asset-workbench",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "build:github": "vite build --mode github --outDir ../published",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-aria": "3.52.1",
+    "react-aria-components": "1.21.1",
+    "@internationalized/date": "3.12.4",
+    "lucide-react": "1.47.0"
+  },
+  "devDependencies": {
+    "vite": "7.3.6"
+  }
+}
